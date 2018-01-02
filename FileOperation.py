@@ -24,4 +24,5 @@ open_file.close()
 '''
 Deleting a file using os module
 '''
-os.remove("sampfile.txt")
+
+#os.remove("sampfile.txt")
