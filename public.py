@@ -16,7 +16,6 @@ class Animal:
         self.name = name
         self.height = height
         self.weight = weight
-
     def Name(self,animalName):
         self.name = animalName
     def Height(self,animalHeight):
