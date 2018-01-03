@@ -25,3 +25,15 @@ carObj.set_company('Lexus Motors')
 carObj.set_model('RX-135')
 carObj.set_color('Swan White')
 print(carObj.carInfoDisplay())
+
+
+class Features(Car):
+
+    def __init__(self):
+        super(Car,self).__init__()
+
+carFeature = Features()
+carFeature.set_company('Audi Motors')
+carFeature.set_model('A8')
+carFeature.set_color('Royal Blue')
+print(carFeature.carInfoDisplay())
